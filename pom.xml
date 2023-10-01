@@ -6,7 +6,7 @@
 
 
   <groupId>org.epam</groupId>
-  <artifactId>pastebin</artifactId>
+  <artifactId>pastebinbash</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
     <plugins>
@@ -21,7 +21,7 @@
     </plugins>
   </build>
 
-  <name>pastebin</name>
+  <name>pastebinbash</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
