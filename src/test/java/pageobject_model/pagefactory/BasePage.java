@@ -20,6 +20,7 @@ public abstract class BasePage {
                 .ignoring(Exception.class);
         PageFactory.initElements(driver, this);
     }
+
     public String getTitle() {
         return driver.getTitle();
     }

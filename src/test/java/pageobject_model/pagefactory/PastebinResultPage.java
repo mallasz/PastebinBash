@@ -14,7 +14,7 @@ public class PastebinResultPage extends BasePage {
 
     @FindBy(xpath = "//*[contains(@class, 'expire')]")
     private WebElement expire;
-    @FindBy(xpath="//a[@class='btn -small h_800' and text()='Bash']")
+    @FindBy(xpath = "//a[@class='btn -small h_800' and text()='Bash']")
     private WebElement syntaxHighlighting;
     @FindAll({@FindBy(xpath = "//div[@class='de1']")})
     private List<WebElement> pastedTextLines;
@@ -28,8 +28,6 @@ public class PastebinResultPage extends BasePage {
         wait.until(ExpectedConditions.visibilityOf(expire));
         return expire.getText().trim();
     }
-
-
 
     public String getSyntaxHighlighting() {
         wait.until(ExpectedConditions.visibilityOf(syntaxHighlighting));
